@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const debug = require('debug')('spell-loop');
-const getMetaFile = require('get-spell-file');
+const getMetaFile = require('get-meta-file');
 const loop = require('loop');
 const path = require('path');
 const util = require('util');
