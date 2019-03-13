@@ -1,6 +1,6 @@
 {
   "name": "@chimpwizard-wand/spell-loop",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "module to locate a meta project's .meta file, and execute a provided command within the meta project's and all child projects' directories",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,12 @@
   "dependencies": {
     "debug": "^4.1.0",
     "get-meta-file": "^1.0.0",
-    "loop": "^3.0.6"
+    "loop": "^3.0.6",
+    "chalk": "^2.1.0",
+    "dedent": "^0.7.0",
+    "findup-sync": "^3.0.0",
+    "prompt-sync": "^4.1.5",
+    "tildify": "^1.2.0"
   },
   "publishConfig": {
     "access": "public"
