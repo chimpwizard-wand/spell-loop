@@ -1,0 +1,31 @@
+{
+  "name": "@chimpwizard-wand/spell-loop",
+  "version": "0.0.1",
+  "description": "module to locate a meta project's .meta file, and execute a provided command within the meta project's and all child projects' directories",
+  "main": "index.js",
+  "bin": {
+    "wand-exec": "./bin/spell-exec",
+    "wand-loop": "./bin/spell-loop"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimpwizard-wand/spell-loop.git"
+  },
+  "author": "ndru@chimpwizard-wand.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chimpwizard-wand/spell-loop/issues"
+  },
+  "homepage": "https://github.com/chimpwizard-wand/spell-loop#readme",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "get-spell-file": "^1.0.0",
+    "loop": "^3.0.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
